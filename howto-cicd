@@ -1,0 +1,4 @@
+Open your GitLab repository and go to: Settings -> CI/CD. In the Variables section add new variables:
+DOCKER_USER: username for accessing Docker hub or any other container registry
+DOCKER_PASSWORD: password for accessing same container registry
+$ENV_SSH_PRIVATE_KEY:  SSH private key that you previously generated on your servers. Your key should look like this.
